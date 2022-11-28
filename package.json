@@ -1,0 +1,36 @@
+{
+  "dependencies": {
+    "@mongoosejs/double": "^0.2.0",
+    "@sendgrid/mail": "^7.5.0",
+    "bcrypt": "^5.0.1",
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "cross-origin": "^1.0.6",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "fs": "^0.0.1-security",
+    "generate-api-key": "^1.0.0",
+    "gridfs-stream": "*",
+    "https": "^1.0.0",
+    "joi": "^17.5.0",
+    "joi-objectid": "^4.0.2",
+    "joi-oid": "^1.1.2",
+    "jsonwebtoken": "^8.5.1",
+    "mailgun": "^0.5.0",
+    "mongoose": "^5.12.14",
+    "multer": "*",
+    "multer-gridfs-storage": "*",
+    "nodemailer": "^6.7.2",
+    "nodemailer-smtp-transport": "^2.7.4",
+    "nodemon": "^2.0.7",
+    "socket.io": "^4.4.0",
+    "socket.io-client": "^4.4.0",
+    "stripe": "^8.194.0",
+    "uuid": "^8.3.2",
+    "uuidv4": "^6.2.12"
+  },
+  "scripts": {
+    "start": "nodemon index.js"
+  }
+}
